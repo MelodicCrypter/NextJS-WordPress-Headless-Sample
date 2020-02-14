@@ -103,7 +103,7 @@ const Page = ({ children }) => {
             <footer className="footer">
                 <div className="content has-text-centered">
                     <p>
-                        <strong>Hugh Caluscusin</strong> Sample Gatsby for Headless Blog. The source
+                        <strong>Hugh Caluscusin</strong> Sample NextJS for Headless Blog. The source
                         code is licesend{' '}
                         <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
                     </p>
