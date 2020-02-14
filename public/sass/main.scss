@@ -1,0 +1,87 @@
+// Bulma
+@import "~bulma";
+
+// NProgress
+@import "../css/nprogress.css";
+
+// General
+a {
+  box-shadow: none !important;
+}
+.button.is-primary {
+  background-color: #37435f !important;
+}
+.is-shady {
+  background: #425649;
+}
+
+.excerpt p {
+  font-size: .9rem;
+  color: #717171;
+}
+
+.post-title {
+  color: #79979a;
+
+  &:hover {
+    color: #81b99d;
+  }
+}
+
+.author-name {
+  color: #a05966;
+  font-size: 1.08rem !important;
+}
+.author-link {
+  margin-top: -22px;
+
+  & span a {
+    color: #b79634 !important;
+    font-size: .9rem;
+  }
+}
+
+#postTemplateHero.hero {
+  overflow: hidden;
+  height: auto;
+  max-height: 100vh !important;
+  position: relative;
+  min-height: 61vh;
+
+  & .hero-background {
+    position: absolute;
+    object-fit: contain;
+    object-position: center center;
+    width: 100%;
+    height: inherit;
+  }
+  & .is-transparent {
+    opacity: .3;
+  }
+  & .hero-body {
+    height: auto !important;
+    max-height: 100vh;
+    min-height: 42vh;
+  }
+  & .title {
+    color: white;
+  }
+  & .subtitle {
+    color: #f5a44f;
+  }
+}
+
+#logo {
+  position: relative;
+  width: 68px;
+  top: -8px;
+  background: #2b354c;
+  padding: 7px;
+  height: 74px;
+
+  & img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
